@@ -1,0 +1,247 @@
+.h1{
+	color: ghostWhite;
+}
+p{
+	color: ghostWhite;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 425px 425px 425px  ;
+  grid-template-rows: 550px ;
+  
+  grid-gap: 90px;
+  background-color: transparent;
+  padding: 3px;
+}
+
+.grid-container > div {
+  background-color: transparent;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 30px;
+  color: white;
+}
+
+.delopts{
+	background-color: ghostWhite;
+	
+}
+
+.btn{
+  background-color: #34495E; 
+  border: none;
+  color: white;
+  padding: 15px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+}
+.btn1{
+  background-color: #34495E; 
+  border: none;
+  color: white;
+  padding: 15px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  
+  background-color: maroon;
+  color: white;
+  text-transform: uppercase;
+  transition: 1.2s ease;
+  text-transform: uppercase;
+}
+.gridset{
+	width:400px;
+	height:400px;
+
+	
+}
+.gridset :hover .overlay{
+		opacity: 0.7;
+    transition: .9s ease;
+	transform: scale(1.1,1.1);
+	text-transform: uppercase;
+	
+}
+
+
+.gridset2{
+	width:200px;
+	height:200px;
+
+	
+}
+.gridset2 :hover .overlay{
+		opacity: 0.7;
+    transition: .9s ease;
+	transform: scale(1.1,1.1);
+	text-transform: uppercase;
+	
+	
+}
+
+
+.zoom2 {
+  padding: 50px;
+  background-color: transparent;
+  transition: transform .2s; 
+  width: 200px;
+  height: 150px;
+  margin: 0 auto;
+}
+
+.zoom2:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.gridset3{
+	width:200px;
+	height:200px;
+	border-radius: 50%;
+
+	
+}
+.gridset3 :hover .overlay{
+		opacity: 0.7;
+    transition: .9s ease;
+	transform: scale(1.1,1.1);
+	text-transform: uppercase;
+	
+	
+}
+.gridset4{
+	width:330px;
+	height:230px;
+	
+
+	
+}
+.RHS {
+	
+	background-image: url("RHS.png"); 
+	no-repeat;
+	
+}
+
+
+
+.zoom1 {
+  padding: 50px;
+  background-color: transparent;
+  transition: transform .2s; 
+  width: 450px;
+  height: 450px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.zoom1:hover {
+  transform: scale(1.1); 
+  cursor: pointer;
+}
+
+.btnopts{	
+background-color: white;
+  border: none;
+  color: maroon;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 18px;
+  font-size:20px;
+}
+.btnopts:hover{
+	
+	display: inline-block;
+	color: ghostWhite;
+	text-decoration:underline;
+	font-size:25px;
+	text-transform: uppercase;
+}
+
+.payopts{	
+background-color: white;
+  border: none;
+  color: maroon;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 18px;
+  font-size:20px;
+}
+.payopts:hover{
+	
+	color: maroon;
+	text-decoration:underline;
+	font-size:25px;
+	text-transform: uppercase;
+}
+ .trolley{
+            width: 20px;
+			top: 315px;
+            margin-top:-58px;
+			margin-left: 1050px;
+            width: 30px;
+            height: 35px;
+			padding-top: 10px;
+            border-top-right-radius:3px;
+            border-bottom-right-radius:3px;
+			border-top-left-radius:3px;
+            border-bottom-left-radius:3px;
+			
+			
+        }
+		
+.footer{
+					background-image:url("white.PNG");
+					padding:10px;
+					clear:both;
+					background-color: white;
+					height: 30px;
+					color: white;
+					text-align: center;
+					font-family: 'Arial';
+					font-size: 20px;
+					
+					}
+					
+.grid-container2 {
+  display: grid;
+  grid-template-columns: 425px 425px 425px  ;
+  grid-template-rows: 550px ;
+  
+  grid-gap: 80px;
+  background-color: #2C3E50;
+  padding: 3px;
+}
+
+.grid-container2 > div {
+  background-color: black;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 30px;
+  color: white;
+}
+
+.grid-container2 > footer {
+      grid-column: 1 / span 4;
+	  background-color: black;
+	  color: maroon;
+	  
+	  
+ }
