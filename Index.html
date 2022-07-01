@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function calculate()
+        {
+            var a=document.getElementById("one").value;
+            var b=document.getElementById("two").value;
+            var c = document.getElementById("sign").value;
+            if (c=="+")
+            {
+                var sum = parseInt(a)+parseInt(b);
+                document.getElementById("result").value =sum  
+            }
+            else if (c=="-")
+            {
+            
+            var sum = parseInt(a)-parseInt(b);
+            document.getElementById("result").value =sum  
+            }
+            else if (c=="*")
+            {
+            
+            var sum = parseInt(a)*parseInt(b);
+            document.getElementById("result").value =sum 
+            }
+            else if (c =="/")
+            {
+            if(b!=0)
+            {
+            var sum = parseInt(a)/parseInt(b);
+            document.getElementById("result").value =sum;
+            }
+            else
+            {
+                document.getElementById("result").value =invalid;
+            }
+            }
+            
+        }
+        
+    </script>
+</head>
+<body>
+    number1: <input type="number" id="one"\><br>
+    number2: <input type="number" id="two"\><br>
+    operator: <input type="text" id="sign"\><br>
+
+    Result: <input type="txt" id="result"\><br>
+    <button id="add" onclick="calculate()">Equal</button>
+    
+</body>
+</html>
