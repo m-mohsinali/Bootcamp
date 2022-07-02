@@ -1,0 +1,67 @@
+.Header{
+    height: 100px;
+    background-color: blueviolet;
+    display:flex;
+    justify-content: space-between;
+    /* background-image: url(5-0.jpg); */
+}
+h1{
+    color: white;
+}
+/* .bor{
+    border: 3px solid black;
+} */
+.mid{
+    display: flex;
+    justify-content: space-between;
+}
+.check{
+    display: flex;
+    justify-content: space-between;
+}
+.acc{
+    display: flex;
+    justify-content: space-between;
+}
+.over{
+    width: 500px;
+}
+.saving{
+    margin-right: 50px;
+}
+legend {
+    margin-left: auto;
+  }
+.line{
+    height: 13px;
+    width: 100%;
+    margin-top: 2px;
+    background-color: goldenrod;
+}
+.L{
+    display: flex;
+}
+.L b{
+    width: 200px;
+}
+.check2{
+    display: flex;
+    justify-content: space-between;
+}
+table, td, th{
+    border: 1px solid black;
+}
+table{
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    /* width: 300px; */
+}
+.tab{
+    border: none;
+}
